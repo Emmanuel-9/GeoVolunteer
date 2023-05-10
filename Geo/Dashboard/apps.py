@@ -1,6 +1,8 @@
 from django.apps import AppConfig
 
 
-class GeovolunteerConfig(AppConfig):
-    default_auto_field = 'django.db.models.BigAutoField'
-    name = 'Geovolunteer'
+class UserConfig(AppConfig):
+    name = 'user'
+
+    def ready(self):
+        from user import signals

@@ -1,0 +1,33 @@
+{% extends 'partials/base.html' %}
+
+{% block content %}
+{% if user.is_authenticated and user.is_staff and user.is_superuser %}
+    
+    <div>
+        <h1> Dashboard Reporting </h1>
+                   <table style="width: 100%;height: 400px">
+                       <tr style="width: 50%; height: 400px">
+                           <td style>
+                               <div id="wdr-component"></div>
+                           </td>
+                           <td style>
+                               <div id="fusionchartArea"></div>
+                           </td>
+                           <td></td>
+                       </tr>
+                       <tr>
+                           <td style="width: 50%;">
+                               <div id="fusionchartPie" style="height:200px;"></div>
+                           </td>
+                           <td style="width: 50%;">
+                               <div id="fusionchartBar" style="height:200px;"></div>
+                           </td>
+                       </tr>
+                   </table>
+       
+               <script src="scripts.js"> </script>
+                </div>
+                {% else %}
+{% endif%}
+
+{% endblock %}
