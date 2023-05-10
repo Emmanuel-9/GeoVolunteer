@@ -52,6 +52,6 @@ If you find a bug (the website couldn't handle the query and / or gave undesired
 If you'd like to request a new function, feel free to do so by opening an issue [here](https://github.com/Emmanuel-9/GeoVolunteer/issues). Please include sample queries and their corresponding results.
 
 ## Support and contact details
-For enquiries and contribution to our project, kindly reach out through E-mail: "bratipahmh@gmail.com"
+For enquiries and contribution to our project, kindly reach out through E-mail: "bratipahmh@gmail.com" / "oregadaniel181@gmail.com"
 
 * Copyright (c) {2023} [LICENSE](https://github.com/Emmanuel-9/GeoVolunteer) © [GeoVolunteers](https://github.com/Emmanuel-9/GeoVolunteer)
