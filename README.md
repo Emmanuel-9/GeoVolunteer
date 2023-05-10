@@ -1,10 +1,6 @@
 ### GEOVOLUNTEER, {2023}
 ## Description
 This is a system that tracks the location of volunteers in realtime, by pressing a stress button in their phones, a response security team is able to be dispatched to their exact location..
-
-## How to install and run the Application 
---
-
 ## Setup/Installation Requirements
 * Open your terminal in pc and create a folder.
 * Clone this repository into the folder using the command line below,
