@@ -73,14 +73,15 @@ WSGI_APPLICATION = 'Geo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+#For now ignore the credentials, an environment variable file will be created for such sensitive data
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'Geovolunteers',
-        'USER':'root',
-        'PASSWORD':'Geovolunteers12345',
-        'HOST':'localhost',
-        'PORT':'3306',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'volunteers',
+        'USER':'manuel',
+        'PASSWORD':'geov1234',
+        'HOST':'',
+        'PORT':''
             }
 }
 
